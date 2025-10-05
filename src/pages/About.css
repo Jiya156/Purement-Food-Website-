@@ -1,0 +1,21 @@
+.about-content {
+    max-width: 800px;
+    margin: 60px auto;
+  }
+  
+  .about-content h2 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-top: 15px;
+  }
+  
+  .about-icon {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+  }

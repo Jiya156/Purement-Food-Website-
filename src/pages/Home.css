@@ -1,0 +1,149 @@
+body{
+    background-color:#faf7f2 ;
+}
+
+#p1{
+    background-image: url('../Images/first.avif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: 0px;
+    font-size: xx-large;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+.menu-section {
+    background-color: #faf7f2; 
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.menu-container1{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.menu-link, #l1{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 3px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu-link:hover {
+    color: gray;
+    border-bottom: 2px solid gray;
+}
+ul li{
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #faf7f2;
+    margin-top: -17px;
+}
+li{
+    display: flex;
+}
+#i1{
+    height: 740px;
+    margin-left: -40px;
+    margin-right: px;
+    width: 740px;
+}
+#i2{
+    width: 740px;
+    height: 740px;
+}
+.hero-section {
+    background-color: #9b9b60;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1;
+    flex: 1; 
+}
+
+.text-container {
+    flex: 1;
+    max-width: 400px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.about-link, #l2{
+    font-size: 16px;
+    text-decoration: underline;
+    color: black;
+}
+
+#p2{
+    font-size: 70px;
+    background-color:#faf7f2 ;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.image-gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+    scroll-padding: 20px; 
+}
+
+.image-gallery::-webkit-scrollbar {
+    display: none;
+}
+
+.image-wrapper {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}

@@ -1,0 +1,70 @@
+/* Navbar Container */
+.navbar {
+    background-color: #faf7f2; /* Light background */
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.386);
+    
+}
+
+/* Logo Styling */
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-brand span {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    color: #120101;
+    font-size: 70px;
+    margin-left: 20px;
+}
+
+/* Remove default anchor styling */
+.navbar-brand a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar List */
+.navbar-nav {
+    display: flex;
+    gap: 20px; /* Spacing between items */
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.navbar-nav .nav-item a:hover {
+    color: #ff5722; /* Highlight color */
+    border-bottom: 2px solid #ff5722;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

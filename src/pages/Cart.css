@@ -1,0 +1,126 @@
+.cart-container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f8f5f0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4b3f35;
+  }
+  
+  .cart-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+    color: #6c5b4c;
+  }
+  
+  .cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .cart-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    background: #e5dfd5;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .cart-item-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+  }
+  
+  .item-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4b3f35;
+  }
+  
+  .item-price, .total-item-price {
+    color: #9b6a48;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .quantity-btn {
+    background: #6c5b4c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .quantity-btn:hover {
+    background: #4b3f35;
+  }
+  
+  .quantity {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    font-weight: bold;
+  }
+  
+  .remove-btn {
+    background: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .remove-btn:hover {
+    background: #b52b27;
+  }
+  
+  .cart-summary {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .place-order-btn {
+    width: 100%;
+    padding: 12px;
+    background: #9b6a48;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  .place-order-btn:hover {
+    background: #7b5138;
+  }
