@@ -29,4 +29,8 @@ It allows users to explore restaurants, view menus, check prices, contact restau
 ## 👨‍💻 Author
 
 - Jiya Modi
+<<<<<<< HEAD
 **Email** - modijiya156@gmail.com
+=======
+**Email** - modijiya156@gmail.com
+>>>>>>> 4aab0b06bd72ae46935ad8aac7ebb38e4edc0c06
