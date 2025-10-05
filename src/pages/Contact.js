@@ -27,9 +27,8 @@ function Contact() {
         
         <div className="contact-info">
           <h2>CONTACT</h2>
-          <p>456, Linking Road,<br />Bandra West, Mumbai, </p>
-          <p>Maharashtra - 400050, India</p>
-          <p>info@mysite.com</p>
+          <p>2 Chitrakoot Bangulow, Premchand Nagar Rd,<br />Satellite, Ahmedabad, <br/>Gujarat - 380015, India</p>
+          <p>purement@mysite.com</p>
           <p>MON - FRI: 5PM - 12AM<br />SAT - SUN: 4PM - 1AM</p>
           <div className="social-links">
             <a href="#">INSTAGRAM</a> | <a href="#">FACEBOOK</a>
